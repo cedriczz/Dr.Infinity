@@ -1,6 +1,6 @@
 # Dr.Infinity Documentation
 
-This repository publishes the documentation snapshot for Dr.Infinity from the local MiroFish workspace.
+This repository publishes the documentation snapshot for Dr.Infinity from the local Dr.Infinity workspace.
 
 ## Source Documents
 

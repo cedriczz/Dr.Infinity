@@ -5,7 +5,7 @@
 
 新增 `LocalGraphStore` 方法或新增 `GraphBuilderService` 方法时请同步本表。
 
-| 能力 | Zep Cloud (`graph_id` 不带 `local_mirofish_` 前缀) | 本地后端 (`graph_id` 以 `local_mirofish_` 开头) | 决策 |
+| 能力 | Zep Cloud (`graph_id` 不带 `local_Dr.Infinity_` 前缀) | 本地后端 (`graph_id` 以 `local_Dr.Infinity_` 开头) | 决策 |
 |---|---|---|---|
 | 创建图谱 | ✅ `client.graph.create` | ✅ `LocalGraphStore.create_graph` | 等价 |
 | 设置本体 | ✅ `client.graph.set_entity_types` | ✅ `LocalGraphStore.set_ontology` | 等价 |
@@ -48,7 +48,7 @@
 API 层 `should_disable_graph_memory_update(graph_id)` 在以下两种情况下返
 回 `True`：
 
-1. `graph_id` 以 `local_mirofish_` 开头（本地后端）
+1. `graph_id` 以 `local_Dr.Infinity_` 开头（本地后端）
 2. `Config.ZEP_API_KEY` 是占位符（即便 graph_id 是真实 Zep id 也不可写入）
 
 `/api/simulation/start` 命中此条件时：
